@@ -16,9 +16,8 @@
 
 /* Set black background color, white text and some padding */
 footer {
-  background-color: green;
-  color: red;
-  padding: 15px;
+  background-color: white;
+  color: black;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
