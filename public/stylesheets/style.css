@@ -26,6 +26,10 @@ ul {
   margin: 50px;
 }
 
+.menuItems img {
+  height: 100px;
+}
+
 @media screen and (max-width: 767px) {
   .sidenav {
     height: auto;
