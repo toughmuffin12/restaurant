@@ -38,6 +38,13 @@ li {
   width: auto;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 @media screen and (max-width: 767px) {
   .sidenav {
     height: auto;
