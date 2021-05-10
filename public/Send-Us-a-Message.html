@@ -35,14 +35,26 @@
         </div>
     </div>
 </nav>
-<form action="form-handling-page" method="post">
-    <label for="name">Name:</label>
-    <input type = "text" id ="name" name="Username"/>
-    <label for="mail">E-mail:</label>
-    <input type="email" id="mail" name="user_email">
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="user_message"></textarea>
-    <button type="submit">Send your message</button>
-</form>
+<p>How many fish sandwiches is to many?:</p>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+<script>
+    function myFunction() {
+        var x, text;
+
+        x = document.getElementById("numb").value;
+
+        if (x > 10000) {
+            text = "Input not valid";
+        } else {
+            text = "Input OK";
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+</script>
 </body>
 </html>
